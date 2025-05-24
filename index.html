@@ -1,12 +1,46 @@
+<!-- This is the main HTML file for Fiyin's DevOps portfolio. It includes sections for projects, contact information, and links to reports. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Fiyin | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, I'm Fiyin!</h1>
-  <p>Welcome to my portfolio.</p>
+  <header>
+    <h1>👋 Hi, I'm Fiyin</h1>
+    <p>DevOps enthusiast building tools, automation, and cool projects.</p>
+  </header>
+
+  <section id="projects">
+    <h2>🛠️ Projects</h2>
+
+    <div class="project">
+      <img src="images/project1.png" alt="Screenshot of Project 1" />
+      <h3>CI/CD Pipeline Demo</h3>
+      <p>A simple pipeline project using GitHub Actions.</p>
+      <a href="reports/project1-notes.pdf" target="_blank">📄 View Report</a>
+    </div>
+
+    <div class="project">
+      <img src="images/project2.png" alt="Screenshot of Project 2" />
+      <h3>Static Website on S3</h3>
+      <p>Hosting a static site on AWS S3 with versioning.</p>
+      <a href="reports/project2-notes.md" target="_blank">📄 View Notes</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>📬 fiyinfoluwa.somorin@gmail.com • 🌐 <a href="https://github.com/fiyinsomorin" target="_blank">GitHub</a></p>
+  </footer>
 </body>
 </html>
+
+```html
+<div class="project">
+  <h3>🚀 Automated Website Setup Script</h3>
+  <p>A script that installs Apache and deploys a static website on AWS EC2 automatically.</p>
+  <a href="projects/setup-automation/setup_server.sh" target="_blank">📜 View Script</a> |
+  <a href="projects/setup-automation/README.md" target="_blank">📘 Project Details</a>
+</div>

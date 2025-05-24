@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    line-height: 1.6;
+  }
+  
+  header, section, footer {
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 6px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
